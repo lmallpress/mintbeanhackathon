@@ -1,5 +1,7 @@
 module.exports = {
-  siteMetadata: {
+  
+    pathPrefix: "lmallpress.github.io/portfolioprojects/",
+    siteMetadata: {
     title: 'Marie Allpress - Full Stack Dev',
     author: 'Marie Allpress',
     description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
