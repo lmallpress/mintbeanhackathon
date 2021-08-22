@@ -3,8 +3,8 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 //import pic02 from '../images/pic02.jpg'
 import traintrack from '../images/traintrack.jpg'
-import pic03 from '../images/pic03.jpg'
-
+//import pic03 from '../images/pic03.jpg'
+import me from '../images/me.jpg'
 
 class Main extends React.Component {
   render() {
@@ -95,7 +95,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={me} alt="" />
           </span>
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
