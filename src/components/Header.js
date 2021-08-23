@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -10,8 +10,7 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1> MY WORK </h1>
-        <p> Welcome to my portofolio  </p>  
-        
+        <p> Welcome to my portofolio  </p>
       </div>
     </div>
     <nav>
@@ -63,3 +62,6 @@ Header.propTypes = {
 }
 
 export default Header
+
+//span className="icon fa-diamond"></span>
+
