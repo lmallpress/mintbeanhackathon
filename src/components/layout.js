@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+import favicon from '../images/favicon.ico'
+
 import '../assets/scss/main.scss'
 
 const Layout = ({ children, location }) => {
@@ -45,6 +47,7 @@ const Layout = ({ children, location }) => {
               { name: 'keywords', content: 'sample, something' },
             ]}
           >
+            <link rel="icon" href={favicon} />
             <html lang="en" />
           </Helmet>
           {content}
@@ -59,3 +62,5 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+//Playfair Display font for icon
