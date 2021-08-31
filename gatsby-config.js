@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
       title: 'Marie Allpress Dev Portfolio',
-      author: 'Hunter Chang',
-      description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+      author: 'Marie Allpress',
+      description: 'My project portfolio',
     },
     plugins: [
       'gatsby-plugin-react-helmet',
@@ -15,7 +15,7 @@ module.exports = {
           background_color: '#663399',
           theme_color: '#663399',
           display: 'minimal-ui',
-          icon: 'src/images/me.jpg', // This path is relative to the root of the site.
+          icon: 'src/images/favicon.png', // This path is relative to the root of the site.
         },
       },
       'gatsby-plugin-sass',
