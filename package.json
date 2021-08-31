@@ -5,7 +5,6 @@
   "author": "Hunter Chang",
   "dependencies": {
     "gatsby": "^2.19.5",
-    "gatsby-cli": "^3.13.0",
     "gatsby-plugin-manifest": "^2.2.38",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sass": "^2.1.27",

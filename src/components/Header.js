@@ -63,5 +63,4 @@ Header.propTypes = {
 
 export default Header
 
-//span className="icon fa-diamond"></span>
 

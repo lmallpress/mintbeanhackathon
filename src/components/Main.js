@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import bldg from '../images/bldg.jpg'
 //import pic02 from '../images/pic02.jpg'
 import traintrack from '../images/traintrack.jpg'
 //import pic03 from '../images/pic03.jpg'
@@ -32,7 +32,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={bldg} alt=""/>
           </span>
           <p>
             Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
@@ -141,19 +141,18 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a href="https://www.facebook.com/" className="icon fa-facebook">
+              <a href="https://www.facebook.com/" target="_blank" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/" className="icon fa-instagram">
-                <span className="label">Instagram</span>
+              <a href="https://www.linkedin.com/in/marieallpress//" target="_blank" className="icon fa-linkedin">
+                <span className="label">Linkedin</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/"
-                className="icon fa-github"
+                href="https://github.com/" target="_blank" className="icon fa-github"
               >
                 <span className="label">GitHub</span>
               </a>
