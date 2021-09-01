@@ -9,8 +9,8 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1> MY WORK </h1>
-        <p> Welcome to my portofolio  </p>
+        <h1> MINTBEAN HACK-A-THON</h1>
+        <p> Welcome to my very first hack-a-thon submission </p>
       </div>
     </div>
     <nav>
@@ -27,10 +27,10 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('game')
             }}
           >
-            Work
+            Game
           </button>
         </li>
         <li>
@@ -42,7 +42,7 @@ const Header = props => (
             About
           </button>
         </li>
-        <li>
+      {/*  <li>
           <button
             onClick={() => {
               props.onOpenArticle('contact')
@@ -50,7 +50,7 @@ const Header = props => (
           >
             Contact
           </button>
-        </li>
+          </li> */}
       </ul>
     </nav>
   </header>
