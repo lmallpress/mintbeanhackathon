@@ -1,9 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import bldg from '../images/bldg.jpg'
-import traintrack from '../images/traintrack.jpg'
-import brickwall from '../images/brickwall.jpg'
-import me from '../images/me.jpg'
+import { StaticImage } from "gatsby-plugin-image"
 //import gameVid from '../images/gameVid.mpeg'
 
 
@@ -26,14 +23,13 @@ class Main extends React.Component {
       >
         <article
           id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={bldg} alt=""/>
+            <StaticImage src="../images/bldg.jpg" alt="building" />
           </span>
           <p>
             Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
@@ -60,22 +56,21 @@ class Main extends React.Component {
 
         <article
           id="game"
-          className={`${this.props.article === 'game' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'game' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Game</h2>
           <span className="image main">
-            <img src={traintrack} alt="" />
-            </span>
+            <StaticImage src="../images/brickwall.jpg" alt="brick" />
+          </span>
           <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
             at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
             urna nisi, fringila lorem et vehicula lacinia quam. Integer
             sollicitudin mauris nec lorem luctus ultrices.
           </p>
-         {/* <video>
+          {/* <video>
               <source src={gameVid} alt="">
 
               </source>
@@ -86,14 +81,13 @@ class Main extends React.Component {
 
         <article
           id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={me} alt="" />
+            <StaticImage src="../images/me.jpg" alt="engineer" />
           </span>
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
@@ -109,9 +103,8 @@ class Main extends React.Component {
 
         <article
           id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
