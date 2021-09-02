@@ -87,7 +87,7 @@ class Main extends React.Component {
           </p>
 
           <p>
-            In my spare time, when I'm not sharpening my baby coding skills, I'm teaching myself to play guitar
+            In my spare time, when I'm not sharpening my baby coding fangs, I'm teaching myself to play guitar
           </p>
 
           <ul className="icons">
