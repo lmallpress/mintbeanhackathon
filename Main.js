@@ -4,6 +4,9 @@ import React from 'react'
 import ReactPlayer from 'react-player'
 import { StaticImage } from "gatsby-plugin-image"
 
+//import gameVid from '../images/video/gameVid.mp4'
+
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -63,7 +66,6 @@ class Main extends React.Component {
               className='react-player fixed-bottom'
               url='../video/gameVid.mp4'
               width='100%'
-              height='100%'
               controls={true}
             />
           </p>
