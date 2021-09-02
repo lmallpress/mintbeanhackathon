@@ -60,15 +60,15 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Game</h2>
+          <h2 className="major">Brick Breaker</h2>
           <span className="image main">
             <StaticImage src="../images/brickwall.jpg" alt="brick" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            This is my first attempt at creating a 2D game.  
+
+            <p>
+              <a href="https://marie-allpress-brickgame.netlify.app/" target="_blank" >awesome work</a> </p>
           </p>
           {/* <video>
               <source src={gameVid} alt="">
@@ -85,23 +85,37 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">About the Architect </h2>
           <span className="image main">
-            <StaticImage src="../images/me.jpg" alt="engineer" />
+            <StaticImage src="../images/me.jpg" alt="architect" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Hello!  My name is Marie, a Front End Developer.  I've spent the core of my life as an IT Professional - mostly tech support - and a Munitions Systems Specialist in the Air National Guard, but my passion is code.  Coding drives me crazy, and is something that I can do for hours; designing, tweaking, playing. I've been chasing this dream for years and will one day become a coding superhero.
           </p>
+
+          <p>
+            In my spare time, when I'm not sharpening my baby coding skills, I'm teaching myself to play guitar.
+          </p>
+
+          <ul className="icons">
+            <li>
+              <a href="https://www.linkedin.com/in/marieallpress//" target="_blank" className="icon fa-linkedin">
+                <span className="label">Linkedin</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/lmallpress" target="_blank" className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+          </ul>
+
           {close}
         </article>
 
-        <article
+        {/*   <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
             }`}
@@ -150,7 +164,7 @@ class Main extends React.Component {
             </li>
           </ul>
           {close}
-        </article>
+          </article> */}
       </div>
     )
   }
