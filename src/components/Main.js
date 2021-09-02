@@ -61,7 +61,7 @@ class Main extends React.Component {
           <p>
             <ReactPlayer
               className='react-player fixed-bottom'
-              url='../video/gameVid.mp4'
+              url='https://www.youtube.com/watch?v=x4bzFXl4nLo'
               width='100%'
               height='100%'
               controls={true}
