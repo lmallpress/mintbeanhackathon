@@ -35,11 +35,13 @@ class Main extends React.Component {
             <StaticImage src="../images/bldg.jpg" alt="building" />
           </span>
           <p>
-            
+            I joined my first hackathon (Thank you Navi Mann and Monarch Wadia of <a href="https://info.mintbean.io/" target="_blank" >mintbean</a>) knowing I was jumping in over my head, but hoping to gain some skills in the process, and a better understanding of what is involved in a hackathon so that I can jump in full force next time
           </p>
+
           <p>
-          
+            Coding, as with learning in general, is much like trying to climb this tall building (I'm sure someone has, but that is not me). It is extremely challenging, and even when you think you have a foot hold, as a novice free climber, you often slip. I've slipped a lot during my coding journey, but I love making things come to life on the page. My game is extremely simple. Most could have programmed it in under 30 minutes. It took me hours and hours, but I had so much fun, frustration, and aha moments. I can't wait to do it again
           </p>
+
           {close}
         </article>
 
@@ -107,7 +109,7 @@ class Main extends React.Component {
 
           {close}
         </article>
-     </div>
+      </div>
     )
   }
 }
