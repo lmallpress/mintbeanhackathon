@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import favicon from '../images/favicon.png'
+import logo from '../images/logo.png'
 
 import '../assets/scss/main.scss'
 
@@ -47,7 +47,7 @@ const Layout = ({ children, location }) => {
               { name: 'keywords', content: 'sample, something' },
             ]}
           >
-            <link rel="icon" href={favicon} />
+            <link rel="icon" href={logo} />
             <html lang="en" />
           </Helmet>
           {content}
