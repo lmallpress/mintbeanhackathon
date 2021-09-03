@@ -62,7 +62,7 @@ class Main extends React.Component {
             <ReactPlayer
               className='react-player fixed-bottom'
               url='https://www.youtube.com/watch?v=x4bzFXl4nLo'
-              width='560px'
+              width='100%'
               height='340px'
               controls={true}
             />
@@ -78,7 +78,7 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About the Architect </h2>
+          <h2 className="major">The Architect </h2>
           <span className="image main">
             <StaticImage src="../images/me.jpg" alt="architect" />
           </span>
