@@ -9,8 +9,8 @@ module.exports = {
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    {
-  {/*  { resolve: 'gatsby-plugin-manifest',
+ /*   {
+    resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'gatsby-starter-default',
         short_name: 'starter',
@@ -20,8 +20,7 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/images/logo-icon.png', // This path is relative to the root of the site.
       },
-    },  
-    'gatsby-plugin-sass',*/}
+    },  */
+    'gatsby-plugin-sass',
   ],
 }
-
