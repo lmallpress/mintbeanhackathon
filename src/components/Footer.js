@@ -1,14 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
 
-const Footer = (props) => (
-    <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-        <p className="copyright">&copy; MARIE ALLPRESS - 2021. Built with: <a href="https://www.gatsbyjs.org/">Gatsby.js</a></p>
-    </footer>
-)
-
-Footer.propTypes = {
-    timeout: PropTypes.bool
+export default function Footer() {
+    return (
+        <footer id="footer" >
+            <p className="copyright">&copy;All rights reserved | MARIE ALLPRESS - {new Date().getUTCFullYear()} | Built with: <a href="https://www.gatsbyjs.org/" target="_blank" >Gatsby.js</a></p>
+        </footer>
+    );
 }
-
-export default Footer
