@@ -49,13 +49,13 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">
-            <a href="https://marie-allpress-brickgame.netlify.app/" target="_blank" >Brick Breaker</a>
+            <a href="https://mintbean-game.vercel.app/" target="_blank" >Brick Breaker</a>
           </h2>
           <span className="image main">
             <StaticImage src="../images/brickwall.jpg" alt="brick" />
           </span>
           <p>
-            This is my first attempt at creating a 2D game.  To begin playing, you can click anywhere on the game board. The ship starts fast, so you may need a few attempts to get going.  Click the game title, above, to go to the game site, or <a href="https://marie-allpress-brickgame.netlify.app/" target="_blank" >HERE</a>
+            This is my first attempt at creating a 2D game.  To begin playing, you can click anywhere on the game board. The ship starts fast, so you may need a few attempts to get going.  Click the game title, above, to go to the game site, or <a href="https://mintbean-game.vercel.app/" target="_blank" >HERE</a>
           </p>
 
           <p>
