@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Marie Allpress Dev Portfolio',
+    title: 'Mintbean Hackathon',
     author: 'Marie Allpress',
     description: 'My project portfolio',
   },
