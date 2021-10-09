@@ -44,7 +44,7 @@ class Main extends React.Component {
 
         <article
           id="game"
-          className={`${this.props.article === 'game' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+          className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
             }`}
           style={{ display: 'none' }}
         >
@@ -78,7 +78,7 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">The Architect </h2>
+          <h2 className="major">The Architect</h2>
           <span className="image main">
             <StaticImage src="../images/me.jpg" alt="architect" />
           </span>
