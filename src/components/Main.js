@@ -31,9 +31,6 @@ class Main extends React.Component {
           <span className="image main">
             <StaticImage src="../images/bldg.jpg" alt="building" />
           </span>
-          <p>
-            I joined my first hackathon (Thank you Navi Mann and Monarch Wadia of <a href="https://info.mintbean.io/" target="_blank" >mintbean</a>) knowing I was jumping in over my head, but hoping to gain some skills in the process, and a better understanding of what is involved in a hackathon so that I can jump in full force next time
-          </p>
 
           <p>
             Coding, as with learning in general, is much like trying to climb this tall building (I'm sure someone has, but that is not me). It is extremely challenging, and even when you think you have a foot hold, as a novice free climber, you often slip. I've slipped a lot during my coding journey, but I love making things come to life on the page. My game is extremely simple. Most could have programmed it in under 30 minutes. It took me hours and hours, but I had so much fun, frustration, and aha moments. I can't wait to do it again
@@ -82,12 +79,9 @@ class Main extends React.Component {
           <span className="image main">
             <StaticImage src="../images/me.jpg" alt="architect" />
           </span>
+          
           <p>
-            Hello!  My name is Marie, a Front End Developer.  I've spent the core of my life as an IT Professional - mostly tech support - and a Munitions Systems Specialist in the Air National Guard, but my passion is code.  Coding drives me crazy, and is something that I can do for hours; designing, tweaking, playing. I've been chasing this dream for years and will one day become a coding superhero
-          </p>
-
-          <p>
-            In my spare time, when I'm not sharpening my baby coding fangs, I'm teaching myself to play guitar
+            I joined my first hackathon (Thank you Navi Mann and Monarch Wadia of <a href="https://info.mintbean.io/" target="_blank" >mintbean</a>) knowing I was jumping in over my head, but hoping to gain some skills in the process, and a better understanding of what is involved in a hackathon so that I can jump in full force next time
           </p>
 
           <ul className="icons">
